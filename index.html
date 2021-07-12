@@ -3,33 +3,39 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Subtheme is a collection of beautiful editor themes.">
+    <meta name="description" content="A community project for building universal editor themes">
     <meta name="author" content="Subtheme">
 
     <title>Subtheme</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;200;300;400;500;515;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <style>
       body {
-        font-family: "Fira Code", sans-serif;
+        font-family: "Fira Sans", sans-serif;
         width: 100%;
-        background: #221f22;
-        color: #fcfcfa;
-        text-align: center;
+        background-color: #fafafa;
+        color: #333;
+        font-size: 1.2em;
+
+        text-align: left;
+        line-height: 1.5;
       }
 
       .header {
         margin-top: 1em;
-        font-size: 3em;
-        font-weight: 900;
-        line-height: 1.25em;
+        font-size: 2.5em;
+        font-weight: 700;
       }
 
-      a, a:visited, a:hover {
-        color: #ffd866;
-      }
+       a, a:visited, a:hover {
+         xcolor: #009ec9;
+         font-weight: 500;
+       }
+
 
       @media (max-width: 576px) {
         .header {
@@ -41,15 +47,31 @@
   <body>
     <div class="container">
       <div class="header">Subtheme</div>
-      A collection of fantastic themes for developers
+      A community project for building universal editor themes
       <br/><br/><br/>
-      <a href="https://github.com/subtheme-pro/atom-one">Atom One</a><br/>
-      <a href="https://github.com/subtheme-pro/mac-native">Mac Native</a><br/>
-      <a href="https://github.com/subtheme-pro/monokai-pro">Monokai Pro</a><br/>
-      <a href="https://github.com/subtheme-pro/solarized">Solarized</a><br/>
+      <div class="row">
+        <div class="col-sm-6">
+          <span style="font-weight:700">Themes</span><br/>
+          <a href="https://github.com/subtheme-pro/atom-one">Atom One</a><br/>
+          <a href="https://github.com/subtheme-pro/mac-native">Mac Native</a><br/>
+          <a href="https://github.com/subtheme-pro/monokai-pro">Monokai Pro</a><br/>
+          <a href="https://github.com/subtheme-pro/solarized">Solarized</a><br/>
+          <br/><br/>
+        </div>
+        <div class="col-sm-6">
+          <span style="font-weight:700">Sublate</span><br/>
+          Themes are built with <a href="https://github.com/jontaydev/sublate">Sublate</a>, a tool for compiling template based projects. By using templates, colors can be defined with a single configuration and provide a more consistent user interface across editors.
+        </div>
+      </div>
+
       <br/><br/>
+
+      <span style="font-weight:700">How can I contribute?</span><br/>
+      Contributions are welcome with <a href="https://github.com/subtheme-pro">GitHub</a>. Currently, the focus is porting popular themes to JetBrains IDEs. Support for additional applications will be added in the future. Any help is appreciated!
+      <br/><br/>
+
+      <br/>
       Designed by <a href="https://github.com/jontaydev">Jonathan</a><br/>
-      Contribute with <a href="https://github.com/subtheme-pro">GitHub</a>
       <br/><br/>
     </div>
   </body>
